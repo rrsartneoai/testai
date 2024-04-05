@@ -1,0 +1,47 @@
+Visual Studio Code Setup for AI Projects
+
+Prerequisites:
+
+Visual Studio Code (VSCode) installed
+Python 3.6 or later
+Git
+Step 1: Install Python Extension
+
+Open VSCode and go to the Extensions tab.
+Search for "Python" and install the official Python extension.
+Step 2: Install Jupyter Extension
+
+Search for "Jupyter" in the Extensions tab.
+Install the "Jupyter" extension.
+Step 3: Create a Virtual Environment
+
+Open a terminal in VSCode (Ctrl + `).
+Create a new virtual environment:
+python3 -m venv venv
+Activate the virtual environment:
+source venv/bin/activate
+Step 4: Install Required Packages
+
+Install the necessary packages for your AI project. For example, for TensorFlow:
+pip install tensorflow
+Step 5: Create a Jupyter Notebook
+
+In VSCode, go to File > New > Jupyter Notebook.
+Save the notebook in your project directory.
+Step 6: Run the Notebook
+
+Click the "Run" button in the notebook toolbar.
+Your code will execute in the Jupyter kernel.
+Additional Tips:
+
+Use the "Python Interactive" window in VSCode to test code snippets.
+Install the "Code Spell Checker" extension for improved code readability.
+Use the "GitLens" extension for version control integration.
+Troubleshooting:
+
+If you encounter errors, check the Python and Jupyter extension settings.
+Ensure that your virtual environment is activated.
+Restart VSCode if you experience any issues.
+Rate this answer: 
+Context Sources (1 file)
+testai/.readme/..
